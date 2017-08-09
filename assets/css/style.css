@@ -1,0 +1,108 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */
+
+*{  /*Reseteamos los valores de margin y padding con los valores que deseamos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+    font-size: 16px;
+}
+
+body{
+    background-color: #F78E69;
+}
+/*Love Love Panda Cabecera*/
+.cabecera{
+    color: white;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: right;
+}
+
+.texto h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+  
+}
+
+
+/*DIBUJO 1*/
+#dibujo{
+    background: url("../img/uno.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+/*Sección Descripción*/
+.descriPar{
+    background-color: #F78E69;
+    color: white;
+    width: 40%;
+    height: 10%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 10px solid #ABE188;
+
+}
+
+.descriPar p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.descr{
+    background-color: #ABE188;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*DIBUJO 2*/
+#dibujo2{
+    background: url("../img/dos.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 350px;
+    margin-bottom: 15px;
+}
+
+/*Sección imagenes*/
+h3{   
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    padding: 20px;
+}
+#imgJS{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.bordes{
+   border: 4px solid white;
+   margin: 10px;
+}
+
+/*DIBUJO 3*/
+#dibujo3{
+    background: url("../img/tres.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+/*footer*/
+footer{
+    background-color: #F78E69;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+}
